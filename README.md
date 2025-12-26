@@ -1,4 +1,4 @@
-# PC3 – ProConcu – **Shibasito**
+# Sistema de Gestión de Colas Concurrentes (Simulación RENIEC)**
 
 > Proyecto didáctico para **Programación Paralela, Concurrente y Distribuida (CC4P1)**.
 > Demuestra **productor–consumidor** con **RabbitMQ**, **RPC** con *reply-to/correlationId*, **idempotencia** de comandos, y (luego) persistencia **ACID** en **PostgreSQL**.
@@ -307,3 +307,4 @@ mvn exec:java -Denv.CFG=config/bank.json
 4. **JavaFX UI**: reemplazar CLI (mismas colas, mejor UX).
 5. **LoadGen** con métricas (CSV) y resumen (throughput, p50/p95, tasa de error).
 6. (Opcional) **Policies** de RabbitMQ: TTL, DLX, límites de cola; **Docker Compose** para levantar entorno.
+
